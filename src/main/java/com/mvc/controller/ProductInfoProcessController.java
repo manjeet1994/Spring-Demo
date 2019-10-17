@@ -33,6 +33,7 @@ public class ProductInfoProcessController {
 			logger.warn("Error has been  found in request wraping");
 			return "add_product";
 		}
+       System.out.println("Modification done to chech push command in git");
 		logger.debug("ProductProcessInfo method executed");
 		ProductDto dto=new ProductDto("PROD-101",product.getProductName(),product.getType(),product.getManufacturer(),product.getPrice());
 		
